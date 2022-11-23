@@ -9,9 +9,9 @@ h2 {
 h3 {
     font-family: Georgia, serif ;
 }
-.box {
+/* .box {
     display: grid;
-}
+} */
 body {
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #800020;
     padding:2px;
     grid-column: 1 / -1;
@@ -46,13 +46,16 @@ body {
     padding: 20px;
     grid-column: 1 ;
     box-shadow: 0 0 40px black;
-    border-radius: 40px;
+    border-radius: 90px;
 }
 
 .content {
+    height: 1px;
     background-color: #800020;
-    padding: 30px;
+    /* padding: 70px; */
     grid-column: 2/ -1;
+    /* box-shadow: 0 0 40px black; */
+    /* border-radius: 90px; */
 }
 
 .footer {
@@ -60,6 +63,7 @@ body {
     padding: 50px;
     grid-column: 1 / -1;
     align-items: center;
+    font-size: large;
 }
 
 
